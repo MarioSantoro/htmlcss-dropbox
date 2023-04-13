@@ -278,6 +278,11 @@ div.container div.logo img{
     width: 150px;
     height: 150px;
     filter: invert(100%);
+    object-fit: contain;
+}
+
+.cnt-middle{
+    background-color: #ccc;
 }
 
 #light-green{
@@ -294,4 +299,16 @@ div.container div.logo img{
 
 #blue-sky{
     background-color: #0093ce;
+}
+
+#cyan{
+    background-color: #b4d0e7;
+}
+
+#blue{
+    background-color: #0d2481;
+}
+
+#yellow{
+    background-color: #ffd830;
 }
