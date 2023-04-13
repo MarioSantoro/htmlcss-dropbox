@@ -126,3 +126,18 @@ main > section.plans div.button-radio input{
 main > section.plans div.button-radio span{
     margin-right: 30px;
 }
+
+.container-plans > div.plan{
+    border: 1px solid #ccc;
+    width: calc(100% / 3 - 20px);
+}
+
+.container-plans > div.plan div.header-plan{
+    border-bottom: 1px solid #ccc;
+    padding: .5rem;
+    justify-content: center;
+}
+
+.container-plans > div.plan div.main-plan{
+    padding: 1rem;
+}
