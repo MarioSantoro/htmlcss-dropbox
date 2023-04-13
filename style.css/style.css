@@ -11,6 +11,13 @@
     display: flex;
 }
 
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .flex-column{
     display: flex;
     flex-direction: column;
@@ -45,7 +52,7 @@
 }
 
 .text-small{
-    font-size: .9rem;
+    font-size: 0.95rem;
 }
 
 .text-medium{
@@ -66,7 +73,7 @@
 }
 
 header{
-    background-color: #b4d0e7;
+    background-color: #96c7f0;
     height: 750px;
 }
 
@@ -125,7 +132,7 @@ header > div.jumbotron > div.flexed-jumbo div.image img{
 
 main > section.plans h2{
     font-size:2.5rem;
-    margin-bottom:2rem;
+    margin-bottom:2.5rem;
 }
 
 main > section.plans div.button-radio{
@@ -140,12 +147,16 @@ main > section.plans div.button-radio span{
 }
 
 .container-plans{
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .container-plans > div.plan{
     border: 1px solid #ccc;
-    width: calc(100% / 3 - 20px);
+    width: calc(100% / 3 - 40px);
+}
+
+.container-plans > div.plan:nth-child(2){
+    margin: 0 40px;
 }
 
 .container-plans > div.plan div.header-plan{
@@ -166,7 +177,7 @@ main > section.plans div.button-radio span{
     line-height: 2.5rem;
 }
 
-.container-plans > div.plan div.main-plan button{
+.container-plans > div.plan.gs div.main-plan button{
     margin: 1.5rem 0;
 }
 
@@ -179,16 +190,37 @@ main > section.plans div.button-radio span{
     height: 2px;
     width: 20%;
     margin: 2.3rem 0;
-}
+}   
 
 .container-plans > div.plan div.main-plan h4{
     margin-bottom: 1.5rem;
 }
 
-.container-plans > div.plan div.main-plan i{
+.container-plans > div.plan  i{
     margin-right: 3px;
 }
 
 .container-plans > div.plan div.main-plan div.vantage i{
     color:  #005eff;
+}
+
+.container-plans > div.plan.bottom-plan{
+    width: 100%;
+    margin-top:3.5rem ;
+}
+
+div.plan.bottom-plan > div.main-plan{
+    padding-top: 1.2rem;
+    padding-bottom: .5rem;
+}
+
+div.plan.bottom-plan > div.main-plan div.type{
+    width: 70%;
+}
+
+div.plan.bottom-plan > div.main-plan div.button-end{
+    width: 30%;
+    justify-content: end;
+    margin: 0;
+    align-items: start;
 }
