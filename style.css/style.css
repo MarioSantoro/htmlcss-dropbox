@@ -11,12 +11,21 @@
     display: flex;
 }
 
+.margin-auto-big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .flex-centered{
     align-items: center;
 }
 
 .text-white{
     color: white;
+}
+
+.text-left{
+    text-align: left;
 }
 
 .btn{
@@ -30,7 +39,7 @@
 
 header{
     background-color: #b4d0e7;
-    height: 600px;
+    height: 800px;
 }
 
 header > nav{
@@ -50,4 +59,28 @@ header > nav  ul li , header > nav button{
 header > nav ul li a{
     text-decoration: none;
     color: black;
+}
+
+header > div.jumbotron {
+    padding-top: 2.5rem;
+}
+
+header > div.jumbotron h1.title-jumbo{
+    font-size: 5rem;
+}
+
+header > div.jumbotron > div.flexed-jumbo div.text{
+    width: 30%;
+}
+
+header > div.jumbotron > div.flexed-jumbo div.image{
+    width: 70%;
+}
+
+header > div.jumbotron > div.flexed-jumbo div.text button{
+    margin: 2rem 0  ;
+}
+
+header > div.jumbotron > div.flexed-jumbo div.image img{
+    width: 100%;
 }
