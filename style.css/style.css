@@ -11,6 +11,11 @@
     display: flex;
 }
 
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
 .margin-auto-big{
     max-width: 1200px;
     margin: 0 auto;
@@ -39,7 +44,7 @@
 
 header{
     background-color: #b4d0e7;
-    height: 800px;
+    height: 750px;
 }
 
 header > nav{
@@ -69,8 +74,13 @@ header > div.jumbotron h1.title-jumbo{
     font-size: 5rem;
 }
 
+header > div.jumbotron > div.flexed-jumbo{
+    margin-top: 2rem;
+}
+
 header > div.jumbotron > div.flexed-jumbo div.text{
     width: 30%;
+    padding-bottom: 7.5rem;
 }
 
 header > div.jumbotron > div.flexed-jumbo div.image{
@@ -78,7 +88,12 @@ header > div.jumbotron > div.flexed-jumbo div.image{
 }
 
 header > div.jumbotron > div.flexed-jumbo div.text button{
-    margin: 2rem 0  ;
+    margin: 3rem 0  ;
+}
+
+header > div.jumbotron > div.flexed-jumbo div.text i{
+    font-size: 3rem;
+    margin-top: 1.5rem;
 }
 
 header > div.jumbotron > div.flexed-jumbo div.image img{
