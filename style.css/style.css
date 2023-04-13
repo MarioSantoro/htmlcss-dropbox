@@ -282,7 +282,13 @@ div.container div.logo img{
 }
 
 .cnt-middle{
-    background-color: #ccc;
+    background-color: #f5f5f5;
+    padding: 1rem 2.5rem;
+}
+
+.cnt-middle img{
+    width:250px;
+    height: 150px;
 }
 
 #light-green{
@@ -311,4 +317,16 @@ div.container div.logo img{
 
 #yellow{
     background-color: #ffd830;
+}
+
+.cnt-middle div.bar{
+    background-color: #ccc;
+    height: 2px;
+    width: 20%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cnt-middle p{
+    margin-bottom: 2rem;
 }
