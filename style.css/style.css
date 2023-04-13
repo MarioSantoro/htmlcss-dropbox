@@ -21,6 +21,17 @@
     margin: 0 auto;
 }
 
+.margin-auto-small{
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+.centure-top-big{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
 .flex-centered{
     align-items: center;
 }
@@ -98,4 +109,20 @@ header > div.jumbotron > div.flexed-jumbo div.text i{
 
 header > div.jumbotron > div.flexed-jumbo div.image img{
     width: 100%;
+}
+
+main > section.plans h2{
+    font-size:2.5rem;
+    margin-bottom:2rem;
+}
+
+main > section.plans div.button-radio{
+    position: relative;
+}
+
+main > section.plans div.button-radio input{
+    margin-right: 5px;
+}
+main > section.plans div.button-radio span{
+    margin-right: 30px;
 }
