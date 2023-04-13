@@ -262,6 +262,10 @@ section.number-team > div.container-h2{
     width: 60%;
 }
 
+section.logo {
+    padding-top: 150px;
+}
+
 section.logo > div.container{
     width: calc(100% / 3);
     height: 600px;
@@ -330,4 +334,23 @@ div.container div.logo img{
 
 .cnt-middle p{
     margin-bottom: 2rem;
+}
+
+section.free-trials{
+    background-color:#b4d0e7 ;
+}
+
+div.free-trials{
+    padding: 4.5rem 1.5rem;
+}
+
+section.free-trials div.container-h3{
+    width: 40%;
+    font-size: 1.5rem;
+    color: #61082b;
+}
+
+section.free-trials div.button{
+    width: 60%;
+    padding-left: 15rem;
 }
