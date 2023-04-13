@@ -130,7 +130,7 @@ div.image img{
     width: 100%;
 }
 
-main > section.plans h2{
+main h2{
     font-size:2.5rem;
     margin-bottom:2.5rem;
 }
@@ -244,3 +244,16 @@ section.partner > div.description > button.btn{
 section.partner > div.description > p{
     margin: 1rem 0;
 }
+
+section.operation div.container-operation{
+    justify-content: space-between;
+}
+
+section.operation div.operation{
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 1.5rem;
+}
+
+div.operation:nth-child(2) , div.operation:nth-child(5){
+    margin: 0 20;
+} 
