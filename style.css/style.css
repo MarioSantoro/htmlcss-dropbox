@@ -6,3 +6,48 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
+
+.flex{
+    display: flex;
+}
+
+.flex-centered{
+    align-items: center;
+}
+
+.text-white{
+    color: white;
+}
+
+.btn{
+    border: none;
+    padding: .5rem 1rem;
+}
+
+.color-btn-blue{
+    background-color: #0060ff;
+}
+
+header{
+    background-color: #b4d0e7;
+    height: 600px;
+}
+
+header > nav{
+    background-color: white;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header > nav  ul li , header > nav button{
+    margin-left: 2.2rem;
+}
+
+header > nav ul li a{
+    text-decoration: none;
+    color: black;
+}
