@@ -341,7 +341,7 @@ section.free-trials{
 }
 
 div.free-trials{
-    padding: 4.5rem 1.5rem;
+    padding: 4.5rem 0;
 }
 
 section.free-trials div.container-h3{
@@ -353,4 +353,18 @@ section.free-trials div.container-h3{
 section.free-trials div.button{
     width: 60%;
     padding-left: 15rem;
+}
+
+section.faq > div.quests div.quest{
+    padding: 2rem 1rem 2rem 0;
+    border-top: 1px solid black;
+    justify-content: space-between;
+}
+
+section.faq div.quests{
+    margin-top: 1rem;
+}
+
+ div.quests div.quest:nth-child(4){
+    border-bottom: 1px solid black;
 }
