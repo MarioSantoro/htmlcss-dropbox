@@ -257,3 +257,7 @@ section.operation div.operation{
 div.operation:nth-child(2) , div.operation:nth-child(5){
     margin: 0 20;
 } 
+
+section.number-team > div.container-h2{
+    width: 60%;
+}
