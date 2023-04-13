@@ -44,6 +44,18 @@
     text-align: left;
 }
 
+.text-small{
+    font-size: .9rem;
+}
+
+.text-medium{
+    font-size: 1.5rem;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
 .btn{
     border: none;
     padding: .5rem 1rem;
@@ -127,6 +139,10 @@ main > section.plans div.button-radio span{
     margin-right: 30px;
 }
 
+.container-plans{
+    margin-top: 2rem;
+}
+
 .container-plans > div.plan{
     border: 1px solid #ccc;
     width: calc(100% / 3 - 20px);
@@ -139,5 +155,40 @@ main > section.plans div.button-radio span{
 }
 
 .container-plans > div.plan div.main-plan{
-    padding: 1rem;
+    padding: 2rem 1.5rem;
+}
+
+.container-plans > div.plan div.main-plan div{
+    margin-bottom: 1.5rem;
+}
+
+.container-plans > div.plan div.main-plan div.type{
+    line-height: 2.5rem;
+}
+
+.container-plans > div.plan div.main-plan button{
+    margin: 1.5rem 0;
+}
+
+.container-plans > div.plan div.main-plan div.type p.month{
+    color: gray;
+}
+
+.container-plans > div.plan div.main-plan div.bar{
+    background-color: #ccc;
+    height: 2px;
+    width: 20%;
+    margin: 2.3rem 0;
+}
+
+.container-plans > div.plan div.main-plan h4{
+    margin-bottom: 1.5rem;
+}
+
+.container-plans > div.plan div.main-plan i{
+    margin-right: 3px;
+}
+
+.container-plans > div.plan div.main-plan div.vantage i{
+    color:  #005eff;
 }
