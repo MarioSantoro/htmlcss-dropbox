@@ -28,6 +28,11 @@
     margin: 0 auto;
 }
 
+.centure-top-small{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 .margin-auto-small{
     max-width: 1050px;
     margin: 0 auto;
@@ -368,3 +373,24 @@ section.faq div.quests{
  div.quests div.quest:nth-child(4){
     border-bottom: 1px solid black;
 }
+
+footer{
+    height: 550px;
+    background-color: black;
+    color: white;
+}
+
+footer div.columns{
+    border: 1px solid white;
+}
+
+footer div.columns div.column{
+    width: calc(100% / 5);
+    border: 1px solid salmon;
+    line-height: 2rem;
+}
+
+footer div.columns div.column h3{
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}   
