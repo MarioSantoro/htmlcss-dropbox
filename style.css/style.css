@@ -261,3 +261,37 @@ div.operation:nth-child(2) , div.operation:nth-child(5){
 section.number-team > div.container-h2{
     width: 60%;
 }
+
+section.logo > div.container{
+    width: calc(100% / 3);
+    height: 600px;
+}
+
+div.container div.logo{
+    width: calc(100% / 2);
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container div.logo img{
+    width: 150px;
+    height: 150px;
+    filter: invert(100%);
+}
+
+#light-green{
+    background-color: #a2d39b;
+}
+
+#blood-red{
+    background-color: #61082b;
+}
+
+.red{
+    background-color: red;
+}
+
+#blue-sky{
+    background-color: #0093ce;
+}
