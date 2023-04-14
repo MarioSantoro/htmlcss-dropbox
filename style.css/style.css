@@ -103,6 +103,10 @@
     background-color: #0060ff;
 }
 
+/* CLASS FOR BACKGROUND-COLOR RED */
+.red{
+    background-color: red;
+}
 
         /* -------------- ID -------------- */              
 
@@ -113,10 +117,6 @@
 
 #blood-red{
     background-color: #61082b;
-}
-
-.red{
-    background-color: red;
 }
 
 #blue-sky{
