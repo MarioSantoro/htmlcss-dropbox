@@ -325,6 +325,7 @@ section.number-team > div.container-h2{
 
 section.logo {
     padding-top: 150px;
+    min-width: 1700px;
 }
 
 section.logo > div.container{
