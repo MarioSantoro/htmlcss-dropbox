@@ -7,83 +7,135 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+            /* -------------- GENERAL CLASS -------------- */ 
+
+/* CLASS FOR DISPLAY FLEX */
 .flex{
     display: flex;
 }
 
-
+/* CLASS FOR FLEX-WRAP */
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
+/* CLASS FOR DISPLAY FLEX-COLUMN */
 .flex-column{
     display: flex;
     flex-direction: column;
 }
 
+/* CLASS FOR GAP ON FLEX ITEM */
 .gap{
     gap:5px;
 }
 
+
+/* CLASS FOR ORIZZONTAL CENTURE BIG */
 .margin-auto-big{
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.centure-top-small{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
+/* CLASS FOR ORIZZONTAL CENTURE SMALL */
 .margin-auto-small{
     max-width: 1000px;
     margin: 0 auto;
 }
 
+/* CLASS FOR VERTICAL CENTURE SMALL */
+.centure-top-small{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* CLASS FOR VERTICAL CENTURE BIG*/
 .centure-top-big{
     padding-top: 150px;
     padding-bottom: 150px;
 }
 
-
+/* CLASS FOR CENTURE THE ITEM ON FLEX */
 .flex-centered{
     align-items: center;
 }
 
+/* CLASS FOR COLOR TEXT WHITE */
 .text-white{
     color: white;
 }
 
+/* CLASS FOR COLOR TEXT GRAY */
 .text-gray{
     color: gray;
 }
 
+/* CLASS FOR TEXT-ALIGN LEFT */
 .text-left{
     text-align: left;
 }
 
+/* CLASS FOR FONT-SIZE SMALL */
 .text-small{
     font-size: 0.95rem;
 }
 
+/* CLASS FOR FONT-SIZE MEDIUM */
 .text-medium{
     font-size: 1.5rem;
 }
 
+/* CLASS FOR TEXT-BOLD */
 .text-bold{
     font-weight: bold;
 }
 
+/* CLASS FOR STYLE BUTTON */
 .btn{
     border: none;
     padding: .5rem 1rem;
 }
 
+/* CLASS FOR BACKGROUND-COLOR FOR BUTTON */
 .color-btn-blue{
     background-color: #0060ff;
 }
+
+
+        /* -------------- ID -------------- */              
+
+#light-green{
+    background-color: #a2d39b;
+    border: 20px solid #d1e9cd;
+}
+
+#blood-red{
+    background-color: #61082b;
+}
+
+.red{
+    background-color: red;
+}
+
+#blue-sky{
+    background-color: #0093ce;
+}
+
+#cyan{
+    background-color: #b4d0e7;
+}
+
+#blue{
+    background-color: #0d2481;
+}
+
+#yellow{
+    background-color: #ffd830;
+}
+
+    /* -------------- CSS -------------- */
 
 header{
     background-color: #96c7f0;
@@ -306,35 +358,6 @@ div.container div.logo img{
 .cnt-middle img{
     width:250px;
     height: 150px;
-}
-
-#light-green{
-    background-color: #a2d39b;
-    border: 20px solid #d1e9cd;
-}
-
-#blood-red{
-    background-color: #61082b;
-}
-
-.red{
-    background-color: red;
-}
-
-#blue-sky{
-    background-color: #0093ce;
-}
-
-#cyan{
-    background-color: #b4d0e7;
-}
-
-#blue{
-    background-color: #0d2481;
-}
-
-#yellow{
-    background-color: #ffd830;
 }
 
 .cnt-middle div.bar {
