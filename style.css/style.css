@@ -156,7 +156,7 @@ header > nav  ul li , header > nav button{
     margin-left: 2.2rem;
 }
 
-header > nav ul li a{
+header > nav ul li a {
     text-decoration: none;
     color: black;
 }
@@ -423,6 +423,11 @@ footer div.bar{
     background-color: #ccc;
     margin-top: 7rem;
     margin-bottom: 1.5rem;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 input {
