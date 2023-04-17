@@ -329,8 +329,8 @@ section.logo {
 }
 
 section.logo > div.container{
-    width: calc(100% / 3);
-    height: 600px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 div.container div.logo{
