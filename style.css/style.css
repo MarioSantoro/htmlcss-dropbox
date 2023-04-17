@@ -164,23 +164,44 @@ ul{
 nav ul li div.dropdown-li{
     display: none;
     position: absolute;
-    background-color: #ccc;
+    background-color: #fafafa;
     top: 80px;
     left: 10%;
-    padding: 1rem;
+    padding: 1.5rem;
+    width: 720px;
 }
 
-nav ul li div.dropdown-li div{
-    width: calc(100% / 3);
+nav ul li div.dropdown-li div.dpw-menu{
+    width: calc(100% / 3 - 30px);
+    line-height: 2.2rem;
 }
 
+nav ul li div.dropdown-li div li{
+    font-size:.88rem ;
+    cursor: pointer;
+}
 
-nav ul li:hover{
+div.bar-dropdown{
+    height: 1px;
+    background-color: lightgray;
+    width: 100%;
+}
+
+nav ul li div.dropdown-li div li:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+
+nav > div.navbar > ul > li:hover{
     border-bottom: 2px solid black;
 }
 
 nav ul li:hover div.dropdown-li.first {
     display: flex;
+    justify-content: space-between;
+}
+
+div.dropdown-li div.sector{
+    margin: 0 30px;
 }
 
 header > nav ul li a {
