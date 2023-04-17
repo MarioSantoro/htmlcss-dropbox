@@ -161,22 +161,31 @@ ul{
     padding: 1.7rem 0;
 }
 
-nav ul li div.dropdown-li{
+nav ul li div.dropdown-li-left , nav ul li div.dropdown-li-right{
     display: none;
     position: absolute;
     background-color: #fafafa;
-    top: 80px;
-    left: 10%;
-    padding: 1.5rem;
-    width: 720px;
 }
 
-nav ul li div.dropdown-li div.dpw-menu{
+nav ul li div.dropdown-li-left h3{
+    margin-bottom: .55rem;
+}
+
+nav ul li div.dropdown-li-left li{
+    padding: .55rem 0;
+}
+
+nav ul li div.dropdown-li-left.first div.dpw-menu{
     width: calc(100% / 3 - 30px);
-    line-height: 2.2rem;
 }
 
-nav ul li div.dropdown-li div li{
+nav ul li div.dropdown-li-left.Second div.dpw-menu{
+    width: calc(100% / 2 - 30px);
+}
+
+nav ul li div.dropdown-li-left div li ,
+nav ul li div.dropdown-li-right li
+{
     font-size:.88rem ;
     cursor: pointer;
 }
@@ -187,7 +196,8 @@ div.bar-dropdown{
     width: 100%;
 }
 
-nav ul li div.dropdown-li div li:hover{
+nav ul li div.dropdown-li-left div li:hover,
+nav ul li div.dropdown-li-right li:hover{
     background-color: rgba(0,0,0,0.1);
 }
 
@@ -195,13 +205,52 @@ nav > div.navbar > ul > li:hover{
     border-bottom: 2px solid black;
 }
 
-nav ul li:hover div.dropdown-li.first {
+nav ul li:hover div.dropdown-li-left.first {
     display: flex;
     justify-content: space-between;
+    top: 80px;
+    left: 10%;
+    padding: 1.5rem;
+    width: 720px;
 }
 
-div.dropdown-li div.sector{
+nav ul li:hover div.dropdown-li-left.Second{
+    display: flex;
+    top: 80px;
+    padding: 1.5rem;
+    width: 400px;
+}
+
+div.dropdown-li-left div.sector{
     margin: 0 30px;
+}
+
+div.dropdown-li-right{
+    display: none;
+    position: absolute;
+    background-color: #fafafa;
+}
+
+nav ul li:hover div.dropdown-li-right.first{
+    display: block;
+    top: 80px;
+    left: 72%;
+    padding: 1rem .55rem;
+    text-align: left;
+    width: 200px;
+}
+
+nav ul li:hover div.dropdown-li-right.Second{
+    display: block;
+    top: 80px;
+    padding: 1rem .55rem;
+    text-align: left;
+    width: 200px;
+}
+
+nav ul li:hover div.dropdown-li-right li{
+    margin: 0 auto;
+    padding: .88rem 0;
 }
 
 header > nav ul li a {
