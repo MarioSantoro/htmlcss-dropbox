@@ -491,10 +491,14 @@ section.free-trials div.button{
     padding-left: 15rem;
 }
 
-section.faq > div.quests div.quest{
+section.faq > div.quests div.flex{
     padding: 2rem 1rem 2rem 0;
     border-top: 1px solid black;
     justify-content: space-between;
+}
+
+section.faq > div.quests > div.quest > div.quest-extend{
+    display: none;
 }
 
 section.faq div.quests{
