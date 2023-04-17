@@ -422,7 +422,6 @@ section.number-team > div.container-h2{
 
 section.logo {
     padding-top: 150px;
-    min-width: 1700px;
 }
 
 section.logo > div.container{
@@ -497,11 +496,20 @@ section.faq > div.quests div.flex{
     justify-content: space-between;
 }
 
-section.faq > div.quests > div.quest > div.quest-extend{
-    display: none;
+section.faq > div.quests > div.quest:hover i{
+    transition: .2s;
+    transform: rotate(180deg);
 }
 
-section.faq > div.quests > div.quest:active div.quest-extend{
+section.faq > div.quests > div.quest > div.quest-extend{
+    display: none;
+    width: 75%;
+    color: gray;
+    transition: all 2s linear;
+    padding-bottom: 1rem;
+}
+
+section.faq > div.quests > div.quest:hover div.quest-extend{
     display: block;
 }
 
@@ -509,7 +517,7 @@ section.faq div.quests{
     margin-top: 1rem;
 }
 
- div.quests div.quest:nth-child(4){
+ div.quests div.quest:nth-child(5){
     border-bottom: 1px solid black;
 }
 
