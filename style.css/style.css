@@ -158,6 +158,7 @@ ul{
 
  nav > div.navbar > ul > li , header > nav button{
     margin-left: 2.2rem;
+    padding: 1.7rem 0;
 }
 
 nav ul li div.dropdown-li{
@@ -169,13 +170,16 @@ nav ul li div.dropdown-li{
     padding: 1rem;
 }
 
+nav ul li div.dropdown-li div{
+    width: calc(100% / 3);
+}
 
 
 nav ul li:hover{
     border-bottom: 2px solid black;
 }
 
-nav ul li:hover div.dropdown-li{
+nav ul li:hover div.dropdown-li.first {
     display: flex;
 }
 
