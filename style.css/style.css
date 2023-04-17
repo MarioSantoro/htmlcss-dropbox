@@ -501,6 +501,10 @@ section.faq > div.quests > div.quest > div.quest-extend{
     display: none;
 }
 
+section.faq > div.quests > div.quest:active div.quest-extend{
+    display: block;
+}
+
 section.faq div.quests{
     margin-top: 1rem;
 }
